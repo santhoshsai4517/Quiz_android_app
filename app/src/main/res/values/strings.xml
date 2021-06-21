@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quizzie</string>
+    <string name="description">This application is built with the purpose to facilitate students in learning, gaining and improving their skills through constant practice and evaluation. It will help them trace their progress by keeping a track of the tests they take, along with immediate feedback regarding their quiz grades. For achieveing this purpose, the app provides three main functionalities. The user can take a new quiz, retake a quiz if your grades are less than 50% and also view the quizzes and look for the correct answers.&#10;
+
+        <bold>Developers:</bold>&#10;
+        Bhuvan&#10;
+        Bhanu&#10;
+        Charan&#10;
+        Shruthikirthi&#10;
+        Sayali&#10;
+    </string>
+</resources>
