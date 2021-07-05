@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Register extends AppCompatActivity {
 
     Button register;
 
@@ -15,14 +15,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register);
 
         register = findViewById(R.id.Register);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in = new Intent(MainActivity.this,Register.class);
+                Intent in = new Intent(Register.this,MainActivity.class);
                 startActivity(in);
+                finish();
             }
         });
 
